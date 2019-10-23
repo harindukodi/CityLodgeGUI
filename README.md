@@ -1,6 +1,4 @@
 # CityLodgeGUI
 Implementation of the CityLodge GUI
 
-Tech Stack: Java
-            JavaFX
-            HSQLDB
+Tech Stack: Java, JavaFX, HSQLDB
