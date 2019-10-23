@@ -1,2 +1,2 @@
 # CityLodgeGUI
-A JavaFX based GUI version of the CityLodge CLI application.
+Implementation of the CityLodge GUI

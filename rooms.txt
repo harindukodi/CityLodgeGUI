@@ -1,0 +1,9 @@
+R001:2:Available:Standard:Air Condition - TV - WiFi - Fridge:image.png
+R001_CUS001_08102019:08/10/2019:11/10/2019:11/10/2019:none:none
+R001_CUS001_02102019:02/10/2019:04/10/2019:04/10/2019:none:none
+R002:1:Available:Standard:Air Condition - TV - WiFi - Fridge:image.png
+R002_CUS003_02102019:02/10/2019:04/20/2019:04/20/2019:none:none
+S001:6:Available:Suite:19/10/2019:Air Condition - TV - WiFi - Fridge:image.png
+S001_CUS001_11102019:11/10/2019:14/20/2019:14/20/2019:none:none
+S002:6:Available:Suite:15/10/2019:Air Condition - TV - WiFi - Fridge:image.png
+S002_CUS002_11102019:11/10/2019:14/20/2019:14/20/2019:none:none

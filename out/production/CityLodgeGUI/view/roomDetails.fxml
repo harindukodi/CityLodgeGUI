@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="controller.RoomDetailsController">
+    <children>
+        <HBox>
+            <ImageView fx:id="roomImg">
+                <image>
+                    <Image url="@../assets/notfound.png"/>
+                </image>
+            </ImageView>
+        </HBox>
+        <HBox alignment="TOP_CENTER">
+            <Button fx:id="RentBtn">Rent</Button>
+            <Button fx:id="ReturnBtn">Return</Button>
+            <Button fx:id="MaintBtn" onAction="#startMaintenance">Maintenance</Button>
+            <Button fx:id="FinMaintBtn" onAction="#finishMaintenance">Finish Maintenance</Button>
+        </HBox>
+        <ScrollPane>
+            <ListView fx:id="rentalList" prefWidth="Infinity">
+            </ListView>
+        </ScrollPane>
+    </children>
+</VBox>

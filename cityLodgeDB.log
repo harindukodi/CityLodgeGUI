@@ -1,0 +1,3 @@
+/*C17*/SET SCHEMA PUBLIC
+CREATE TABLE IF NOT EXISTS Room (roomId VARCHAR(50) NOT NULL, numOfBedrooms INTEGER,featureSummary VARCHAR(999),roomType INTEGER,roomStatus INTEGER,lastMaintainanceDate DATE,PRIMARY KEY (roomId) )
+CREATE TABLE IF NOT EXISTS HiringRecord(roomId VARCHAR(10) NOT NULL,customerId VARCHAR(10) NOT NULL,rentDate DATE NOT NULL,estimatedReturnDate DATE NOT NULL,actualReturnDate DATE,rentalFee DOUBLE,lateFee DOUBLE,FOREIGN KEY (roomId) REFERENCES Room(roomId),PRIMARY KEY (roomId, customerId, rentDate))
